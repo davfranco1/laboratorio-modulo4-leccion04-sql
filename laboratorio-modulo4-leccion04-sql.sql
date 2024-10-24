@@ -315,7 +315,7 @@ group by cielo;
 -- 4.9. Muestra el número de locales por categoría que muy probablemente se encuentren abiertos.
 select 
     categoria, 
-    COUNT(id_local) AS numero_locales
+    COUNT(id_local) as numero_locales
 from locales l
 where estado = 'VeryLikelyOpen'
 group by categoria;
