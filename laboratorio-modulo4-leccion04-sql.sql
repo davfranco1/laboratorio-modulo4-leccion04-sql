@@ -216,6 +216,8 @@ select count(c.cielo), c.cielo, c.municipio_id
 from clima c 
 group by c.cielo, c.municipio_id
 
+-- No he conseguido acabar este ejercicio.
+
 select * from clima
 
 -- Ejercicio 4. Subqueries
